@@ -2,7 +2,7 @@
 console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***") //Welcome text will be displayed at the begining
 import inquirer from "inquirer"; //module imported
 
-const studentId: number = Math.floor(1000 + Math.random() * 9000); //generate random student ID
+const studentId: number = Math.floor(10000 + Math.random() * 50000); //generate 5 digit random student ID
 
 let myAccountBalance: number = 10000; //account balance in dollar
 

@@ -1,20 +1,20 @@
 {
-  "name": "shakir1-student-management-system",
+  "name": "student-management-system",
   "version": "1.0.0",
-  "description": "Student Mangement System CLI based created by Shakir Hussain",
+  "description": "This is a command line student management system",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shakir",
+  "keywords": [],
+  "author": "Shakir Hussain",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.3.6"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7",
-    "@types/node": "^22.2.0"
+    "@types/inquirer": "^9.0.7"
   }
 }
