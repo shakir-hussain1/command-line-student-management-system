@@ -1,2 +1,1 @@
-"# shakir1-simple-calculator" 
-"# simple-calculator" 
+"# student-management-system" 
