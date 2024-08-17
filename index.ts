@@ -1,12 +1,12 @@
 #! /usr/bin/env node
-console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***")
-import inquirer from "inquirer";
+console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***") //Welcome text will be displayed at the begining
+import inquirer from "inquirer"; //module imported
 
-const studentId: number = Math.floor(1000 + Math.random() * 9000);
+const studentId: number = Math.floor(1000 + Math.random() * 9000); //generate random student ID
 
-let myAccountBalance: number = 10000;
+let myAccountBalance: number = 10000; //account balance in dollar
 
-let studentAnswer = await inquirer.prompt([
+let studentAnswer = await inquirer.prompt([ //object created
   {
     name: "students",
     type: "input",
@@ -26,7 +26,7 @@ let studentAnswer = await inquirer.prompt([
   },
 ]);
 
-const tutionFee: { [key: string]: number } = {
+const tutionFee: { [key: string]: number } = { //courses and their fees
   "IT": 5000,
   AI: 4000,
   EnglishLanguage: 1000,
@@ -37,7 +37,7 @@ const tutionFee: { [key: string]: number } = {
 console.log(`\nTution Fees: ${tutionFee[studentAnswer.courses]}/-\n`);
 console.log(`Balance: ${myAccountBalance}\n`);
 
-let paymentVia = await inquirer.prompt([
+let paymentVia = await inquirer.prompt([ //payment methode
   {
     name: "payment",
     type: "list",

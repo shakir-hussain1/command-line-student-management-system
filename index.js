@@ -1,8 +1,8 @@
 #! /usr/bin/env node
-console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***");
-import inquirer from "inquirer";
-const studentId = Math.floor(1000 + Math.random() * 9000);
-let myAccountBalance = 10000;
+console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***"); //Welcome text will be displayed at the begining
+import inquirer from "inquirer"; //module imported
+const studentId = Math.floor(1000 + Math.random() * 9000); //generate random student ID
+let myAccountBalance = 10000; //account balance in dollar
 let studentAnswer = await inquirer.prompt([
     {
         name: "students",
