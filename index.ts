@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-
+console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***")
 import inquirer from "inquirer";
 
 const studentId: number = Math.floor(1000 + Math.random() * 9000);
@@ -77,7 +77,7 @@ if (tutionFees === paymentAmount) {
   ]);
 
   if (myAnswer.select === "View Status") {
-    console.log("===Status".repeat(5));
+    console.log("===STATUS OF STUDENT===");
     console.log(`Student Name: ${studentAnswer.students}`);
     console.log(`Student ID: ${studentId}`);
     console.log(`Course: ${studentAnswer.courses}`);
