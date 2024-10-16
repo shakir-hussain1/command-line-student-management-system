@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+
 console.log("*****WELCOME TO STUDENT MANAGEMENT SYSTEM***") //Welcome text will be displayed at the begining
 import inquirer from "inquirer"; //module imported
 
