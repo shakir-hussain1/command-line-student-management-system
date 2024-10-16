@@ -1,6 +1,6 @@
 {
-  "name": "student-management-system",
-  "version": "1.0.0",
+  "name": "shakir1-student-management-system",
+  "version": "1.0.1",
   "description": "This is a command line student management system",
   "main": "index.js",
   "type": "module",
